@@ -1,6 +1,11 @@
-const alertBroswer = () => {
-	 alert("Hello! I am an alert box!!");
-} 
- 
+let omriuliel = () => {
+	document.getElementById('omri').innerHTML = 'OmriUleil';
 
-alertBroswer();
+}
+
+
+
+	// Change text from Omri to OmriUleil
+	//	document.getElementById("h1").innerHTML = "OmriUleil";
+	//	document.createTextNode("OmriUleil");
+	//	document.getElementById('omri').innerHTML = 'OmriUleil';
