@@ -4,14 +4,35 @@
 <head>
     <meta charset="utf-8" />
     <title>omri</title>
+    <link class="popup1" rel="stylesheet" type="text/css" href="popup.css">
 </head>
 <body> 
-<div>
-   <h1 id="omri">omri</h1> 
+   
+   <div>
+     <h1 id="omri">omri</h1> 
+   </div>
+ 
 
-</div>
+   <div>
+      
+    <form action="mypopup">
+    <label for="fname">do you like men?:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+      <button type="button" onclick="togglePopup()">popup</button>
+
+    </form>
+
+   </div>
+
+   <div class="popup hidden" onclick="togglePopup()" id="myPopup">
+      <span class="popuptext">Popup text...</span>
+   </div>
+      
+
+
+
 <!-- <script src="hello.js"></script> -->
-<button type="button" onclick="omriuliel()">show!!!</button>
+
 <script src="hello.js">
 
 </script>
